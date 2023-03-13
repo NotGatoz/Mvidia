@@ -10,5 +10,9 @@
 <body>
     <?php include 'header.php'; ?>
     <input type="text" div class="zoekbalk">
+    <?php include "menu.php"; ?>
+    <div class="filter">
+        <p>filter</p>
+    </div>
 </body>
 </html>
