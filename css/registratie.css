@@ -68,11 +68,12 @@ body{
   }
 
   a:link {
-    color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: rgb(216, 216, 216);
   }
 
   a:visited {
-    color: rgb(255, 255, 255);
+    color: rgb(224, 224, 224);
   }
 
   a:hover {

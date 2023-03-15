@@ -9,6 +9,7 @@
 
 </head>
 <body>
+  <?php include'../php/header.php'?>
   <div class="container">
     <h1>registreren</h1>
     <p>vul alles in</p>
