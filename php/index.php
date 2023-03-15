@@ -12,8 +12,15 @@
     <?php include "menu.php"; ?>
     <input type="text" div class="zoekbalk">
     <div class="filter">
-        <p>filter</p>
+        <h2>filter</h2>
+        <form action="action_page.php">
+        <input type="checkbox" id="filter" name="vehicle1" value="2D">
+        <label for="vehicle1">2D</label>
+        <input type="checkbox" id="filter" name="vehicle1" value="3D">
+        <label for="vehicle1">3D</label>
+        <input type="checkbox" id="filter" name="vehicle1" value="Indie">
+        <label for="vehicle1">indie</label>
+        </form>
     </div>
-    <marquee>autobandventieldopjes</marquee>
 </body>
 </html>
