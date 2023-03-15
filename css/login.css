@@ -1,4 +1,17 @@
-.imgcontainer 
+body{
+    background-color: rgb(52, 52, 52);
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: rgba(255, 255, 255, 0.816);
+}
+.imgcontainer
 {
 
+}
+.container 
+{
+background-color: gray  ;
+}
+.container1
+{
+    background-color: gray  ;
 }
