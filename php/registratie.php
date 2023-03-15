@@ -23,7 +23,7 @@
     <button type="register" class="registreerbtn">registreren</button>
   </div>
   <div class="container login">
-    <p>heb je al een account? <a href="#">inloggen</a>.</p>
+    <p>heb je al een account? <a href="inlog.php">inloggen</a>.</p>
   </div>
     
 </body>
