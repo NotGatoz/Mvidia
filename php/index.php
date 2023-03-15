@@ -9,8 +9,8 @@
 </head>
 <body>
     <?php include 'header.php'; ?>
-    <input type="text" div class="zoekbalk">
     <?php include "menu.php"; ?>
+    <input type="text" div class="zoekbalk">
     <div class="filter">
         <p>filter</p>
     </div>
