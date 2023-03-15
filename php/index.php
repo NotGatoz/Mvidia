@@ -15,6 +15,5 @@
         <p>filter</p>
     </div>
     <marquee>autobandventieldopjes</marquee>
-    <marquee>Gringo</marquee>
 </body>
 </html>

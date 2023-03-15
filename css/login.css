@@ -9,9 +9,6 @@ body{
 }
 .container 
 {
-background-color: gray  ;
-}
-.container1
-{
     background-color: gray  ;
+    border
 }
