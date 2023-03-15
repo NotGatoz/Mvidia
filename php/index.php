@@ -14,12 +14,22 @@
     <div class="filter">
         <h2>filter</h2>
         <form action="action_page.php">
-            <input type="checkbox" id="filter" name="vehicle1" value="2D">
-            <label for="vehicle1">2D</label><br>
-            <input type="checkbox" id="filter" name="vehicle1" value="3D">
-            <label for="vehicle1">fps</label><br>
-            <input type="checkbox" id="filter" name="vehicle1" value="fps">
-            <label for="vehicle1">fps</label><br>
+            <input type="checkbox" id="filter" name="2D" value="2D">
+            <label for="2D">2D</label><br>
+            <input type="checkbox" id="filter" name="3D" value="3D">
+            <label for="3D">3D</label><br>
+            <input type="checkbox" id="filter" name="fps" value="fps">
+            <label for="fps">fps</label><br>
+            <input type="checkbox" id="filter" name="indie" value="indie">
+            <label for="indie">indie</label><br>
+            <input type="checkbox" id="filter" name="open world" value="open world">
+            <label for="open world">open world</label><br>
+            <input type="checkbox" id="filter" name="race" value="race">
+            <label for="race">race</label><br>
+            <input type="checkbox" id="filter" name="rpg" value="rpg">
+            <label for="rpg">rpg</label><br>
+            <input type="checkbox" id="filter" name="shooter" value="shooter">
+            <label for="shooter">shooter</label><br>
         </form>
     </div>
 </body>
