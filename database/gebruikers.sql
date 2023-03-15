@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 15 mrt 2023 om 13:07
+-- Gegenereerd op: 15 mrt 2023 om 13:10
 -- Serverversie: 10.4.27-MariaDB
 -- PHP-versie: 8.1.12
 
@@ -31,7 +31,8 @@ CREATE TABLE `gebruikers` (
   `ID` int(11) NOT NULL,
   `Voornaam` varchar(56) NOT NULL,
   `Achternaam` varchar(56) NOT NULL,
-  `Email` varchar(56) NOT NULL
+  `Email` varchar(56) NOT NULL,
+  `Wachtwoord` varchar(56) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
