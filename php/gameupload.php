@@ -9,17 +9,17 @@
 <body>
 <div class="submit">
   <form action="upload.php" method="POST">
-    <label for="fname">First Name</label>
+    <label for="fname">naam</label>
     <input type="text" id="fname" name="Naam" placeholder="Plaats hier de naame van de game">
 
-    <label for="lname">Last Name</label>
+    <label for="lname">beschrijving</label>
     <input type="text" id="lname" name="Beschrijving" placeholder="Plaats hier een beschrijving van game">
 
-    <label for="email">email</label>
+    <label for="email">prijs</label>
     <input type="text" id="email" name="Prijs" placeholder="Plaats hier de prijs">
 
-    <label for="genre">email</label>
-    <input type="text" id="email" name="Genre" placeholder="Genre">
+    <label for="genre">genre</label>
+    <input type="text" id="genre" name="Genre" placeholder="Genre">
 
     <input type="submit" value="Submit">
 
