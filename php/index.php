@@ -32,5 +32,35 @@
             <label for="shooter">shooter</label><br>
         </form>
     </div>
+    <div class="games">
+    <?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "marktplaats";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "SELECT Naam, Beschrijving, Prijs, Genre FROM games ORDER BY Naam desc";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+  // output data of each row
+  while($row = $result->fetch_assoc()) {
+    echo  " Naam: " . $row["Naam"]. "<br>Beschrijving: " . $row["Beschrijving"]. "<br>" . "Prijs:" .$row["Prijs"]. "<br>" .$row["Genre"]. "<br><br>"
+;
+  }
+} else {
+  echo "er is hier niks";
+}
+$conn->close();
+
+?>
+    </div>
 </body>
 </html>
