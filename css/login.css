@@ -3,12 +3,10 @@ body{
     font-family: "Lucida Console", "Courier New", monospace;
     color: rgba(255, 255, 255, 0.816);
 }
-.imgcontainer
-{
+.imgcontainer{
 
 }
-.container 
-{
+.container {
     background-color: gray  ;
     border
 }
