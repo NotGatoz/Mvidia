@@ -56,7 +56,7 @@
     <button type="registreer" class="registreerbtn">registreren</button>
 </form></div>
   <div class="container login">
-    <p>heb je al een account? <a href="../php/inlog.php">inloggen</a>.</p>
+    <p>heb je al een account? <a href="../php/login.php">inloggen</a>.</p>
   </div>
     
 </body>
