@@ -33,7 +33,7 @@
                     <input type="password" maxlength="49" name="Wachtwoord" class="text-box" placeholder="Wachtwoord"><br>
                     <button class="inloggen-Button" type="Inloggen" Inloggen="Inloggen">Inloggen</button>
                 </form>
-                <a href="register.php" class="register-login">Register</a>
+                <a href="registratie.php" class="register-login">Register</a>
             </div>
         </div>
     </body>
