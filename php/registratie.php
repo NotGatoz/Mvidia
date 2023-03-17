@@ -54,7 +54,7 @@
     <hr>
     <button type="registreer" class="registreerbtn">registreren</button>
 </form></div>
-  <div class="container login">
+  <div class="login">
     <p>heb je al een account? <a href="../php/login.php">inloggen</a>.</p>
   </div>
     
