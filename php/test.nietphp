@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<?php
+    session_start();
+
+    // connect to the database
+    $db = mysqli_connect("localhost","Voornaam","Achternaam","Email","Wachtwoord","database_name");
+
+    if(!$db){
+        die("connection error...".mysqli_connect_error());
+    }else{
+        echo "You are successfully connected.";
+    }
+    
+    if(isset($_POST['Voornaam']) && isset($_POST['Wachtwoord'])){
+        $Voornaam=$_POST['Voornaam'];
+        $Achternaam=$_POST['Achternaam'];
+        $Email=$_POST['Email'];
+        $Wachtwoord=$_POST['Wachtwoord'];
+        
+    $temp = mysqli_query($db,"INSERT INTO gebruikers (Voornaam,Achternaam,Email,Wachtwoord) 
+    VALUES ('$Voornaam','$Achternaam','$Email','$Wachtwoord')");
+    
+    if(!$temp){
+        echo "error";
+    }else{
+        echo "Your registration is done.";
+    }
+    }
+?>
+
+
+
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registratie</title>
+    <link rel=stylesheet href=../css/registratie.css>
+
+</head>
+<body>
+  <?php include'../php/header.php'?>
+  <div class="container">
+    <h1>registreren</h1>
+    <p>vul alles in</p>
+    <hr>
+    <label for="Voornaam"><b>voornaam</b></label>
+    <input type="text" placeholder="voornaam invullen" name="Voornaam" id="Voornaam" required>
+    <label for="Achternaam"><b>achternaam</b></label>
+    <input type="text" placeholder="achternaam invullen" name="Achternaam" id="Achternaam" required>
+    <label for="Email"><b>Email</b></label>
+    <input type="text" placeholder="email invullen" name="Email" id="Email" required>
+    <label for="Wachtwoord"><b>wachtwoord</b></label>
+    <input type="text" placeholder="wachtwoord invullen" name="Wachtwoord" id="Wachtwoord" required>
+    <label for="Wacht-herhaal"><b>herhaal wachtwoord</b></label>
+    <input type="text" placeholder="wachtwoord herhalen" name="Wacht-herhaal" id="Wacht-herhaal" required>
+    <hr>
+    <button type="registreer" class="registreerbtn">registreren</button>
+  </div>
+  <div class="container login">
+    <p>heb je al een account? <a href="../php/inlog.php">inloggen</a>.</p>
+  </div>
+    
+</body>
+</html>
