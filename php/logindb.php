@@ -21,7 +21,6 @@
     $row = mysqli_fetch_array($result);
 
     if ($row['Email'] == $Email && $row['wachtwoord'] == $Wachtwoord) {
-        $_SESSION['gebruikersNaam'] = $row['name'];
         $_SESSION['email']=$row['Email'];
         $_SESSION['loggedIn'] = true;
         header("location: index.php");
