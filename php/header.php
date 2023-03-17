@@ -1,1 +1,2 @@
 <div class="header"><a href="../php/index.php">home</a> <a href="../php/registratie.php">registreren <a href="../php/gameupload.php">game verkopen</a></a></div>
+<link rel=stylesheet href=../css/index.css>
