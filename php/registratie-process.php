@@ -24,5 +24,5 @@
 
     $result = $conn->query($sql);
 
-    header("Location:inlog.php");
+    header("Location:login.php");
 ?>
