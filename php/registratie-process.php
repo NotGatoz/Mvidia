@@ -30,5 +30,5 @@
 	$sql = "INSERT INTO `gebruikers` (`ID`, `Voornaam`, `Achternaam`, `Email`, 'Wachtwoord') VALUES (NULL, '$Voornaam', '$Achternaam', '$Email', $Wachtwoord)";
 	$result = $conn->query($sql);
 
-    header("Location:inlog.php");
+    header("Location:login.php");
 ?>
