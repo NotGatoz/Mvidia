@@ -28,9 +28,9 @@
             <div class="text-box-login">
                 <form method="post">
                     <text class="text-login">Email</text><br>
-                    <input type="Email" maxlength="49" name="Email" class="text-box" placeholder="Email"><br>
+                    <input type="Email" maxlength="49" name="Email" class="text-box" placeholder="Email" required><br>
                     <text class="text-login">Wachtwoord</text><br>
-                    <input type="password" maxlength="49" name="Wachtwoord" class="text-box" placeholder="Wachtwoord"><br>
+                    <input type="password" maxlength="49" name="Wachtwoord" class="text-box" placeholder="Wachtwoord" required><br>
                     <button class="inloggen-Button" type="Inloggen" Inloggen="Inloggen">Inloggen</button>
                 </form>
                 <a href="registratie.php" class="register-login">Register</a>
@@ -45,9 +45,6 @@
 
 
 <div class="footer">
-Pharmeon | Beheer
-info@apotheekschagen.nl
-Privacy - Voorwaarden
 </div>
 </div>
 </body>
