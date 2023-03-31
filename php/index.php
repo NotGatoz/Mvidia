@@ -62,5 +62,6 @@ $conn->close();
 
 ?>
     </div>
+    <?php include 'livechat.php';?>
 </body>
 </html>
