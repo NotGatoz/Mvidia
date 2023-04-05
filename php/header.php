@@ -9,26 +9,15 @@
 
     if (isset($_SESSION['loggedIn']) && $_SESSION["loggedIn"]== true) { 
     ?>
-        <div class="user">
 
         <a class="name-header">
             <?php
                 echo $_SESSION['Voornaam'];
             ?>
         </a>
-        <div class="seperator">|</div>
-        <a href="logout.php" class="login-button-header">
+        <br>
+        <a href="logout.php" class="logout">
           logout
         </a>
 
-        </div>
-    <?php } else { ?>
-        <div class="user">
-        <a href="registratie.php" class="login-button-header">
-            register
-        </a>
-        <div class="seperator">|</div>
-        <a href="login.php" class="login-button-header">
-            login
-        </a>
-    <?php } ?>
+        <?php } ?>
