@@ -1,3 +1,4 @@
+<?php if(session_status() !== PHP_SESSION_ACTIVE) session_start(); ?>
 <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         include 'connect.php';
@@ -11,6 +12,7 @@
         if ($row['Email'] == $Email && $row['Wachtwoord'] == $Wachtwoord) {
             $_SESSION['loggedIn'] = true;
             $_SESSION['email'] = $row['Email'];
+            $_SESSION['Voornaam'] = $row['Voornaam'];
             header("location: index.php");
         }
     }
@@ -38,11 +40,6 @@
         </div>
     </body>
 </html>
-
-
-
-
-
 
 <div class="footer">
 </div>
