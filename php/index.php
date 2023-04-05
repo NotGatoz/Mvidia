@@ -30,6 +30,8 @@
             <label for="rpg">rpg</label><br>
             <input type="checkbox" id="filter" name="shooter" value="shooter">
             <label for="shooter">shooter</label><br>
+            <input type="checkbox" id="filter" name="tycoon" value="tycoon">
+            <label for="tycoon">tycoon</label><br>
         </form>
     </div>
     <div class="games">
