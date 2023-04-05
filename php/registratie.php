@@ -39,7 +39,6 @@
   <?php include'../php/header.php'?>
   <div class="container">
     <h1>registreren</h1>
-    <p>vul alles in</p>
     <hr>
 	<form method="POST" action="registratie-process.php">
     <label for="voornaam"><b>voornaam</b></label>
@@ -55,7 +54,7 @@
     <hr>
     <button type="registreer" class="registreerbtn">registreren</button>
 </form></div>
-  <div class="container login">
+  <div class="login">
     <p>heb je al een account? <a href="../php/login.php">inloggen</a>.</p>
   </div>
     
