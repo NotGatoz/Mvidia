@@ -17,8 +17,17 @@
     <input type="text" id="lname" name="Beschrijving" placeholder="Plaats hier een beschrijving van game"><br>
     <label for="email">prijs</label>
     <input type="text" id="email" name="Prijs" placeholder="Plaats hier de prijs"><br>
-    <label for="genre">genre</label>
-    <input type="text" id="genre" name="Genre" placeholder="Genre"><br>
+    <select name="genre_id" id="catagorie">
+                <option hidden>----Genre----</option>
+                <option value="1">Actie</option>
+                <option value="2">Survival</option>
+                <option value="3">Rpg</option>
+                <option value="4">Indie</option>
+                <option value="5">Roleplay</option>
+                <option value="6">Idle</option>
+                <option value="7">Strategy</option>
+                <option value="8">Avontuur</option>
+            </select>
     <input type="submit" value="Submit">
 
   </form>

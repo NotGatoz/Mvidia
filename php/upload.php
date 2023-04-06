@@ -23,7 +23,7 @@ if ($conn->connect_error) {
 $Naam = $_POST['Naam'];
 $Beschrijving = $_POST['Beschrijving'];
 $Prijs = $_POST['Prijs'];
-$Genre = $_POST['Genre'];
+$Genre = $_POST['genre_id'];
 
 
 $sql = "INSERT INTO games (GameID, Naam, Beschrijving, Prijs, Genre) VALUES (NULL, '$Naam', '$Beschrijving', '$Prijs', '$Genre' );";
